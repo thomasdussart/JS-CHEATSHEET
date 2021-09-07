@@ -1,18 +1,42 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
 /* HEADER */
 .App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
   font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 /* MENU */
 
 .App-menu {
-  letter-spacing: 0.2ch;
+  letter-spacing: 0.3ch;
+  background: #ffffff;
+  font-size: 1.4rem;
+  min-width: 250px;
+  text-align: left;
+  margin-left: 1rem;
+  height: calc(100vh - 160px);
+  overflow-y: auto;
   border-right: 1px solid black;
   word-wrap: break-word;
 }
 
 .App-menu h2 {
   font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
 }
 
 p {
@@ -26,10 +50,11 @@ p a {
 /* CONTENU */
 
 .App-content {
-  flex-grow: 2;
   text-align: left;
-  height: 80vh;
+  width: 100%;
+  height: calc(100vh - 160px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -42,11 +67,13 @@ p a {
   margin: 2rem;
 }
 
-.App-content pre {
+.App-content code {
   text-align: left;
   display: inline-block;
   margin-top: -1rem;
-  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 2rem;
   border: 3px solid #333333;
   border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
   letter-spacing: 0.3ch;

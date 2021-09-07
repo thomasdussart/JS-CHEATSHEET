@@ -7,9 +7,9 @@ const SwitchStatement = () => {
         L'instruction switch évalue une expression et, selon le résultat obtenu
         et le cas associé, exécute les instructions correspondantes.
       </h3>
-      <pre>
-        <code>
-          {`
+
+      <code>
+        {`
 let SiriusTeam = ["Jeremy","Christophe","Julie","Thomas","Laetitia","Laura"];
 
 switch(SiriusTeam) {
@@ -36,8 +36,7 @@ switch(SiriusTeam) {
         break;
 }
 `}
-        </code>
-      </pre>
+      </code>
     </div>
   );
 };

@@ -8,15 +8,14 @@ const Ternaire = () => {
         comporte trois opérandes. Cet opérateur est fréquemment utilisé comme
         raccourci pour la déclaration if/else.
       </h3>
-      <pre>
-        <code>
-          {`
+
+      <code>
+        {`
 let IsNumber = true;
 
 IsNumber ? console.log("vrai"):console.log("faux");
 `}
-        </code>
-      </pre>
+      </code>
     </div>
   );
 };

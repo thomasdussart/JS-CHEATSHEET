@@ -1,4 +1,3 @@
-import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import Accueil from "./components/Accueil";
 import Menu from "./components/Menu";
@@ -20,18 +19,20 @@ import MapArray from "./components/Map";
 import Includes from "./components/Includes";
 import Sort from "./components/Sort";
 import SetTimeout from "./components/SetTimeout";
+// import "./App.css";
+import "./style.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App text-center">
+      <header className="App-header bg-header text-white text-3xl flex flex-col">
         <h1>Cheat Sheet JS</h1>
       </header>
-      <div className="App-page">
-        <nav className="App-menu">
+      <div className="App-page flex">
+        <nav className="App-menu bg-white text-2xl w-1/5 h-3/4 border-r-2 text-left ml-4 overflow-y-auto">
           <Menu />
         </nav>
-        <section className="App-content">
+        <section className="App-content text-left flex flex-col justify-center items-center">
           <Switch>
             <Route exact path="/" component={Accueil} />
             <Route path="/consolelog" component={Consolelog} />

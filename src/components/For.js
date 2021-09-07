@@ -9,17 +9,16 @@ const ForLoop = () => {
         parenthèses qui sont suivies par une instruction à exécuter dans la
         boucle.
       </h3>
-      <pre>
-        <code>
-          {`
+
+      <code>
+        {`
 let SiriusTeam = ["Jeremy","Christophe","Julie","Thomas","Laetitia","Laura"];
 
 for(let i = 0; i < SiriusTeam.length; i++) {
     console.log(SiriusTeam[i]);
 }
 `}
-        </code>
-      </pre>
+      </code>
     </div>
   );
 };

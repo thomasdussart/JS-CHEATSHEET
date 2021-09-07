@@ -8,9 +8,9 @@ const WhileLoop = () => {
         condition de test est vérifiée. La condition est évaluée avant
         d'exécuter l'instruction contenue dans la boucle.
       </h3>
-      <pre>
-        <code>
-          {`
+
+      <code>
+        {`
 let SiriusTeam = ["Jeremy","Christophe","Julie","Thomas","Laetitia","Laura"];
 let i = 0
 
@@ -19,8 +19,7 @@ console.log(SiriusTeam[1]);
 i++;
 }
 `}
-        </code>
-      </pre>
+      </code>
     </div>
   );
 };
