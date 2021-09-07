@@ -7,9 +7,9 @@ const Push = () => {
         La méthode push() ajoute un ou plusieurs éléments à la fin d'un tableau
         et retourne la nouvelle taille du tableau.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let siriusTeamArray = ["Jeremy", "Christophe", "Julie", "Thomas", "Laetitia", "Laura"];
 
 console.log(siriusTeamArray.length);
@@ -20,7 +20,8 @@ console.log(siriusTeamArray.push("Jeremy", "Thomas"));
 
 //Output: 7
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

@@ -8,16 +8,17 @@ const Pop = () => {
         d'un tableau. Elle modifie donc la valeur de la propriété length
         (longueur) du tableau.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let siriusTeamArray = ["Jeremy", "Christophe", "Julie", "Thomas", "Laetitia", "Laura"];
 
 console.log(siriusTeamArray.pop());
 
 //output: "Laura"
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

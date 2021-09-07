@@ -9,24 +9,23 @@ const Sort = () => {
         tableau convertis en chaînes de caractères et triées selon les valeurs
         des unités de code UTF-16 des caractères.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let sortArray = [1, 10, 3];
 
 console.log(sortArray.sort());
 
 //output : [1,10,3]
 `}
-      </code>
+        </code>
+        <h3>
+          Si on veut trier un tableau de nombre, il convient d’utiliser la
+          méthode suivante
+        </h3>
 
-      <h3>
-        Si on veut trier un tableau de nombre, il convient d’utiliser la méthode
-        suivante
-      </h3>
-
-      <code>
-        {`
+        <code>
+          {`
 let sortArray = [1, 10, 3];
 
 console.log(sortArray.sort((a, b) => a - b));
@@ -34,7 +33,8 @@ console.log(sortArray.sort((a, b) => a - b));
 //output : [1,3,10]
 
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

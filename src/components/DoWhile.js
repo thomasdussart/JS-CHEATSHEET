@@ -9,9 +9,9 @@ const DoWhile = () => {
         est testée après que l'instruction soit exécutée, le bloc d'instructions
         défini dans la boucle est donc exécuté au moins une fois.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let SiriusTeam = ["Jeremy","Christophe","Julie","Thomas","Laetitia","Laura"];
 let i = 0
 
@@ -20,7 +20,8 @@ console.log(SiriusTeam[1]);
 i++;
 } while(i < SiriusTeam.length)
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

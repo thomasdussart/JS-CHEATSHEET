@@ -7,16 +7,17 @@ const Shift = () => {
         La méthode shift permet de retirer le premier élément du tableau et de
         le renvoyer, de la même manière que se comporte la méthode pop.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let siriusTeamArray = ["Jeremy", "Christophe", "Julie", "Thomas", "Laetitia", "Laura"];
 
 console.log(siriusTeamArray.shift());
 
 //Output: "Jeremy"
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

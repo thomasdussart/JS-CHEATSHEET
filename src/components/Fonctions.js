@@ -7,9 +7,9 @@ const Fonctions = () => {
         Une fonction est un ensemble d'instructions menant à la réalisation
         d'une tâche.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 function calculate(a,b){
    return a * b;
 }
@@ -18,7 +18,8 @@ const calculate = (a,b) => {
     return a * b;
 }
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

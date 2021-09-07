@@ -67,7 +67,7 @@ p a {
   margin: 2rem;
 }
 
-.App-content code {
+.App-content pre {
   text-align: left;
   display: inline-block;
   margin-top: -1rem;

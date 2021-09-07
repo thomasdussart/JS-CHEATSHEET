@@ -8,14 +8,15 @@ const Filter = () => {
         les éléments du tableau d'origine qui remplissent une condition
         déterminée par la fonction callback.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let siriusTeamArray = ["jeremy", "christophe", "thomas", "laetitia", "julie", "laura"];
 let newarray = siriusTeamArray.filter(el => el === "laetitia");
 console.log(newarray);
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

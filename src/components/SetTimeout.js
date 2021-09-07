@@ -4,14 +4,15 @@ const SetTimeout = () => {
   return (
     <div>
       <h3>Permet d'exécuter une fonction callback après un temps donné.</h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 window.setTimeOut(() => {
     console.log("Hello World");
 }, 2000)
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };

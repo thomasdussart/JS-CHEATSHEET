@@ -8,9 +8,9 @@ const IfElse = () => {
         vraie ou équivalente à vrai. Si la condition n'est pas vérifiée, il est
         possible d'utiliser une autre instruction.
       </h3>
-
-      <code>
-        {`
+      <pre>
+        <code>
+          {`
 let number = true;
 
 if(number) {
@@ -19,7 +19,8 @@ if(number) {
     console.log("Faux");
 }
 `}
-      </code>
+        </code>
+      </pre>
     </div>
   );
 };
