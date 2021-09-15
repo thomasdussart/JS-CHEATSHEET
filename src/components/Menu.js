@@ -11,6 +11,26 @@ const Menu = () => {
         </Link>
       </p>
       <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/getelemid"}>
+          getElementById
+        </Link>
+      </p>
+      <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/getelemclass"}>
+          getElementByClassName
+        </Link>
+      </p>
+      <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/getelemtag"}>
+          getElementByTagName
+        </Link>
+      </p>
+      <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/getelemname"}>
+          getElementByName
+        </Link>
+      </p>
+      <p className="w-48">
         <Link className="no-underline text-gray-500" to={"/fonctions"}>
           Fonctions
         </Link>
@@ -96,6 +116,21 @@ const Menu = () => {
       <p className="w-48">
         <Link className="no-underline text-gray-500" to={"/set-timeout"}>
           Set Timeout
+        </Link>
+      </p>
+      <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/fetch"}>
+          Fetch GET
+        </Link>
+      </p>
+      <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/fetch-post"}>
+          Fetch POST
+        </Link>
+      </p>
+      <p className="w-48">
+        <Link className="no-underline text-gray-500" to={"/fetch-delete"}>
+          Fetch DELETE
         </Link>
       </p>
     </div>

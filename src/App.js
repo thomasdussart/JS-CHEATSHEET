@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import Accueil from "./components/Accueil";
 import Menu from "./components/Menu";
 import Consolelog from "./components/Consolelog";
@@ -20,13 +20,21 @@ import Includes from "./components/Includes";
 import Sort from "./components/Sort";
 import SetTimeout from "./components/SetTimeout";
 // import "./App.css";
+// import "./style_mobile.css";
 import "./style.css";
+import GetElemID from "./components/GetelemID";
+import GetElemClass from "./components/Getelemclass";
+import GetElemTag from "./components/Getelemtag";
+import GetElemName from "./components/Getelemname";
+import Fetch from "./components/Fetch";
+import FetchPost from "./components/FetchPost";
+import FetchDelete from "./components/FetchDelete";
 
 function App() {
   return (
     <div className="App text-center">
       <header className="App-header bg-header text-white text-3xl flex flex-col">
-        <h1>Cheat Sheet JS</h1>
+        <Link to={"/"}>JS CHEAT SHEET</Link>
       </header>
       <div className="App-page flex">
         <nav className="App-menu bg-white text-2xl w-1/5 h-3/4 border-r-2 text-left ml-4 overflow-y-auto">
@@ -36,6 +44,10 @@ function App() {
           <Switch>
             <Route exact path="/" component={Accueil} />
             <Route path="/consolelog" component={Consolelog} />
+            <Route path="/getelemid" component={GetElemID} />
+            <Route path="/getelemclass" component={GetElemClass} />
+            <Route path="/getelemtag" component={GetElemTag} />
+            <Route path="/getelemname" component={GetElemName} />
             <Route path="/fonctions" component={Fonctions} />
             <Route path="/ifelse" component={IfElse} />
             <Route path="/ternaire" component={Ternaire} />
@@ -53,6 +65,9 @@ function App() {
             <Route path="/includes" component={Includes} />
             <Route path="/sort" component={Sort} />
             <Route path="/set-timeout" component={SetTimeout} />
+            <Route path="/fetch" component={Fetch} />
+            <Route path="/fetch-post" component={FetchPost} />
+            <Route path="/fetch-delete" component={FetchDelete} />
           </Switch>
         </section>
       </div>

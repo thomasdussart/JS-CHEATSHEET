@@ -1,0 +1,67 @@
+/* Contenu et menu */
+
+.App-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  height: 5rem;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
+}
+
+/* Menu */
+.App-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  overflow-y: auto;
+  background-color: red;
+  /* letter-spacing: 0.3ch;
+  background: #ffffff;
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+  height: calc(100vh - 10rem);
+  overflow-y: auto;
+  border-right: 1px solid black;
+  word-wrap: break-word; */
+}
+
+.App-menu h2 {
+  font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
+}
+
+p {
+  width: 12rem;
+}
+
+p a {
+  color: #aca5cf;
+}

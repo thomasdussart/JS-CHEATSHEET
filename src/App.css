@@ -1,6 +1,9 @@
+@import url("./app_mobile.css") (min-width: 320px) and (max-width: 480px);
+
 /* HEADER */
 .App-header {
   font-size: calc(10px + 2vmin);
+  height: 10rem;
 }
 
 /* MENU */
@@ -9,6 +12,7 @@
   letter-spacing: 0.2ch;
   border-right: 1px solid black;
   word-wrap: break-word;
+  height: calc(100vh - 10rem);
 }
 
 .App-menu h2 {
@@ -28,7 +32,7 @@ p a {
 .App-content {
   flex-grow: 2;
   text-align: left;
-  height: 80vh;
+  height: calc(100vh - 10rem);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -4,9 +4,11 @@ const Consolelog = () => {
   return (
     <div>
       <h3>Permet d'afficher un élément dans la console</h3>
-      <code>{`
+      <pre>
+        <code>{`
 console.log("Hello World")
 `}</code>
+      </pre>
     </div>
   );
 };

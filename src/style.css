@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .App {
   text-align: center;
+}
+
+/* PAGE COMPLETE */
+
+.App-page {
+  display: flex;
 }
 
 /* HEADER */
@@ -11,23 +20,29 @@ body {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
   color: white;
+  height: 10rem;
+  width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  /*  */
+}
 /* MENU */
 
 .App-menu {
-  letter-spacing: 0.3ch;
+  letter-spacing: 0.2rem;
   background: #ffffff;
   font-size: 1.4rem;
-  min-width: 250px;
+  min-width: 350px;
   text-align: left;
   margin-left: 1rem;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 10rem);
   overflow-y: auto;
   border-right: 1px solid black;
-  word-wrap: break-word;
 }
 
 .App-menu h2 {
@@ -52,11 +67,12 @@ p a {
 .App-content {
   text-align: left;
   width: 100%;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 10rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
 }
 
 .App-content div {
@@ -79,10 +95,4 @@ p a {
   letter-spacing: 0.3ch;
   background: #ffffff;
   position: relative;
-}
-
-/* PAGE COMPLETE */
-
-.App-page {
-  display: flex;
 }
